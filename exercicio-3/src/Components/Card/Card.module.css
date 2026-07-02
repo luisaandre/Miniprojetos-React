@@ -1,0 +1,81 @@
+:root {
+    --branco: #fff;
+    --preto: #222222;
+    --cinza: #3f3f3f;
+    --roxo: #7d19ff;
+    --roxoescuro: #6515ce;
+}
+
+
+
+.card {
+    background-color: var(--branco);
+    padding: 2rem 4rem 1rem 4rem;
+    width: 18rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-items: center;
+}
+
+.profile {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    font-size: 1.5rem;
+    color: var(--preto);
+    padding: 2rem 0 1rem 0;
+    margin: 0 -1rem 0 -1rem;
+    border-bottom: 0.1rem solid var(--roxo);
+    width: 100vh;
+    text-align: center;
+}
+
+.info{
+    color: var(--cinza);
+    padding: 1rem 0 1rem 0;
+    font-size: 1rem;
+    margin: 0 -1rem 0 -1rem;
+    border-bottom: 0.1rem solid var(--roxo);
+    width: 100vh;
+    text-align: center;
+}
+
+
+
+.button {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    padding: 1rem 4rem;
+    background-color: var(--roxo);
+    text-align: center;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0, 0.1);
+    transition: 0.2s;
+    
+}
+
+.button:hover {
+    background-color: var(--roxoescuro);
+}
+
+
+
+
+
